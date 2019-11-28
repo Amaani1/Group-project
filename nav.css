@@ -1,69 +1,65 @@
 {
-  margin:0;
-  padding:-;
+  margin: 0;
+  padding: -;
 }
 
-body{
+body {
   background-image: url("https://ih0.redbubble.net/image.425892126.1363/flat,550x550,075,f.u1.jpg");
   background-color: #7f7df9;
+  padding-top: 5rem;
 }
 
-.contact-us{
+.contact-us {
   width: 500px;
   background: #f5f5f5;
   padding: 50px;
   margin: 100px auto;
   border-radius: 30px;
-  position:relative;
+  position: relative;
 }
 
-.title h1{
-clear: #535274;
-letter-spacing: 5px;
-margin-bottom: 25px;
-text-align: center;
-
+.title h1 {
+  clear: #535274;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 .form,
-.form-items{
+.form-items {
   width: 100%;
 }
 
 .form-items .input {
   width: 100%;
   margin-bottom: 12px;
-  padding: 15px ; /*40px*/
-  box-sizing:border-box;
-  border:0;
+  padding: 15px;
+  /*40px*/
+  box-sizing: border-box;
+  border: 0;
   outline: none;
-
 }
 
-.form-items .input.message{
+.form-items .input.message {
   height: 125px;
   margin-bottom: 30px;
-  padding-left:15px;
+  padding-left: 15px;
   resize: none;
-
 }
 
-.btn{
-  background-color:#827ffe;
+.btn {
+  background-color: #827ffe;
   text-align: center;
   color: #fff;
   /*padding: 12px;*/
   cursor: pointer;
-border: none;
+  border: none;
   padding: 7px 0px 7px 0px;
   font-size: 16px;
   width: 100%;
-
-
-
 }
 
-.social-icons{
+.social-icons {
   position: absolute;
   bottom: -25px;
   left: 50%;
@@ -73,7 +69,7 @@ border: none;
   justify-content: space-around;
 }
 
-.social-icons div{
+.social-icons div {
   width: 50px;
   height: 50px;
   background: red;
@@ -82,46 +78,44 @@ border: none;
   curser: pointer;
 }
 
-.social-icons div .fab{
+.social-icons div .fab {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #fff;
 }
 
-.social-icons div.instagram{
+.social-icons div.instagram {
   background: #f09433;
-background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
 
-.social-icons div.facebook{
+.social-icons div.facebook {
   background: #5178d9;
 }
 
-.social-icons div.twitter{
+.social-icons div.twitter {
   background: #1da1f2;
 }
 
-#error_message{
+#error_message {
   margin-bottom: 20px;
   padding: 0px;
   background: #fe8b8e;
   text-align: center;
   transition: all 0.5s ease;
-
 }
 
-body {
-  padding-top: 5rem;
-}
+
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
 }
-.navbar{
-  background-color:#FF0061;
+
+.navbar {
+  background-color: #FF0061;
 }
