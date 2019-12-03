@@ -24,3 +24,12 @@ body {
 .navbar{
   background-color:#FF0061;
 }
+.img-wrap {
+  width: 100%;
+}
+.img-wrap img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50%;
+  
+}
