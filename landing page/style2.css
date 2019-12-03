@@ -65,3 +65,19 @@ p {
 	padding: 3%;
 	text-align: center;
 }
+<<<<<<< Updated upstream
+=======
+.social-icons div.instagram{
+  background: #F09433;
+background: -moz-linear-gradient(45deg, #F09433 0%, #E6683C 25%, #DC2743 50%, #CC2366 75%, #BC1888 100%);
+background: -webkit-linear-gradient(45deg, #F09433 0%,#E6683C 25%,#DC2743 50%,#CC2366 75%,#BC1888 100%);
+background: linear-gradient(45deg, #F09433 0%,#E6683C 25%,#DC2743 50%,#CC2366 75%,#BC1888 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F09433', endColorstr='#BC1888',GradientType=1 );
+}
+.social-icons div.facebook{
+  background: #5178D9;
+}
+.social-icons div.twitter{
+  background: #1DA1F2;
+}
+>>>>>>> Stashed changes
