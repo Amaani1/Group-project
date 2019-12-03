@@ -7,7 +7,7 @@ body {
   height: 20px solid #fff;
   border: 20px solid #ff0061;
   padding-top: 5rem;
-  font-family: source sans Pro, sans-serif;
+  font-family: 'Roboto Mono', monospace;
   padding: 20px;
   margin: 20px auto;
   max-width: 800px;
@@ -50,7 +50,7 @@ hr {
 
 p, ul {
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .blue {
