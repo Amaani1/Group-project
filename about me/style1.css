@@ -4,18 +4,15 @@ section{
    display: flex;
    justify-content: center;
    align-items: center;
-   color: #000000;
-   background-image: url('Best-Womens-Hiking-Shoes.jpg');
-   background-repeat:no-repeat;
+   color: #FFFFFF;
+
  }
  #aboutme h2{margin-bottom: 25px;}
-.footer {
-  margin-left: 20px;
-  height: 10vh;
-  color: #FFFFFF;
-}
+
 body {
   padding-top: 5rem;
+  background-image: url('pink-sky-cover.jpg');
+  background-repeat:no-repeat;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -31,5 +28,10 @@ body {
   width: 100%;
   padding: 10px;
   border-radius: 50%;
-  
+
+}
+.footer {
+  margin-left: 20px;
+  height: 10vh;
+  color: #000000;
 }
