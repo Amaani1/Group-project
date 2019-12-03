@@ -14,14 +14,14 @@ function validation() {
     return false;
   }
 
-  if (message.length <= 75) {
-    text = "Please Enter More Than 75 Characters";
+  if (message.length <= 15) {
+    text = "Please Enter More Than 15 Characters";
     error_message.style.padding = "10px";
     error_message.innerHTML = text;
     return false;
   }
 
-  alert("Form Submitted Successfully!");
+  alert("Message Sent Successfully!");
   document.getElementById('myform').reset();
   error_message.style.padding = "0px";
   error_message.innerHTML = "";
